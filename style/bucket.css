@@ -1,0 +1,44 @@
+ #bucket {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 10px;
+  }
+
+  img {
+    width: 60%;
+  }
+
+  #bucket>div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+
+  #remove_coffee {
+    background: transparent;
+    outline: none;
+    border: 2px solid orange;
+    font-size: 13px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 8px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #confirm_checkout {
+    background: transparent;
+    outline: none;
+    border: 2px solid orange;
+    font-size: 13px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 8px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+  }
